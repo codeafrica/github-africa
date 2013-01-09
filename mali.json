@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "followers_count": 14,
+      "language": "Python",
+      "fullname": "rgaudin",
+      "login": "rgaudin",
+      "type": "user",
+      "created": "2009-02-25T10:52:47-08:00",
+      "repos": 15,
+      "username": "rgaudin",
+      "created_at": "2009-02-25T10:52:47-08:00",
+      "location": "Bamako, Mali",
+      "followers": 14,
+      "id": "user-",
+      "public_repo_count": 15,
+      "name": "rgaudin"
+    },
+    {
+      "followers_count": 0,
+      "language": "Python",
+      "fullname": "yɛlɛman s.à.r.l",
+      "login": "yeleman",
+      "type": "user",
+      "created": "2010-09-15T06:44:49-07:00",
+      "repos": 37,
+      "username": "yeleman",
+      "created_at": "2010-09-15T06:44:49-07:00",
+      "location": "Bamako, Mali",
+      "followers": 0,
+      "id": "user-",
+      "public_repo_count": 37,
+      "name": "yɛlɛman s.à.r.l"
+    },
+    {
+      "followers_count": 0,
+      "language": null,
+      "fullname": "Richard Mazzella",
+      "login": "bambasaba",
+      "type": "user",
+      "created": "2011-12-23T03:33:53-08:00",
+      "repos": 1,
+      "username": "bambasaba",
+      "created_at": "2011-12-23T03:33:53-08:00",
+      "location": "Bamako / Mali",
+      "followers": 0,
+      "id": "user-",
+      "public_repo_count": 1,
+      "name": "Richard Mazzella"
+    },
+    {
+      "followers_count": 0,
+      "language": "Python",
+      "fullname": "Fadiga",
+      "login": "fadiga",
+      "type": "user",
+      "created": "2010-08-04T07:03:25-07:00",
+      "repos": 9,
+      "username": "fadiga",
+      "created_at": "2010-08-04T07:03:25-07:00",
+      "location": "Mali, Bamako",
+      "followers": 0,
+      "id": "user-",
+      "public_repo_count": 9,
+      "name": "Fadiga"
+    }
+  ]
+}
