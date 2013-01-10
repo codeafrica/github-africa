@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "repos": 0,
+      "username": "RodrigoRawr",
+      "followers": 2,
+      "fullname": "Rodrigo",
+      "followers_count": 2,
+      "created": "2011-08-22T14:21:10-07:00",
+      "public_repo_count": 0,
+      "language": null,
+      "name": "Rodrigo",
+      "type": "user",
+      "id": "user-",
+      "location": "Somalia",
+      "login": "RodrigoRawr",
+      "created_at": "2011-08-22T14:21:10-07:00"
+    },
+    {
+      "repos": 0,
+      "username": "Africana-carwo",
+      "followers": 0,
+      "fullname": "Carwo Africana",
+      "followers_count": 0,
+      "created": "2010-06-21T12:29:49-07:00",
+      "public_repo_count": 0,
+      "language": null,
+      "name": "Carwo Africana",
+      "type": "user",
+      "id": "user-",
+      "location": "Mogadishu Somalia",
+      "login": "Africana-carwo",
+      "created_at": "2010-06-21T12:29:49-07:00"
+    },
+    {
+      "repos": 0,
+      "username": "africana",
+      "followers": 0,
+      "fullname": "Carwo Africana",
+      "followers_count": 0,
+      "created": "2010-06-14T12:11:11-07:00",
+      "public_repo_count": 0,
+      "language": null,
+      "name": "Carwo Africana",
+      "type": "user",
+      "id": "user-",
+      "location": "Mogadishu Somalia",
+      "login": "africana",
+      "created_at": "2010-06-14T12:11:11-07:00"
+    }
+  ]
+}

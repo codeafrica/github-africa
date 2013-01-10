@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "language": "Ruby",
+      "followers_count": 0,
+      "fullname": "Mabuya Magagula",
+      "type": "user",
+      "created_at": "2010-12-20T00:27:05-08:00",
+      "followers": 0,
+      "repos": 2,
+      "created": "2010-12-20T00:27:05-08:00",
+      "public_repo_count": 2,
+      "login": "Mabz",
+      "name": "Mabuya Magagula",
+      "username": "Mabz",
+      "location": "Swaziland",
+      "id": "user-"
+    }
+  ]
+}
