@@ -24,8 +24,8 @@ one_minute = 60
 one_hour = one_minute * 60
 min_remaining_tostop = 30
 reqs = 0
-reqs_limit = None
-reqs_remaining = None
+# reqs_limit = None
+# reqs_remaining = None
 headers = {'Authorization': 'token %s' % GITHUB_TOKEN} if GITHUB_TOKEN else {}
 
 
@@ -62,8 +62,6 @@ def extend_user(user):
 
     def get_activity_from_html(username):
         r = requests.get('https://github.com/%s' % username, headers=headers)
-
-        check_limits(r.headers)
 
         parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("dom"))
         dom = parser.parse(StringIO.StringIO(r.content))
