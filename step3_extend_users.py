@@ -4,16 +4,49 @@
 
 import os
 import json
+import time
 from dateutil import parser as du_parser
 from datetime import datetime
 import StringIO
+import logging
 
 import requests
 import html5lib
 from html5lib import treebuilders
 
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.DEBUG)
+
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
+
+last_id = None
+one_minute = 60
+one_hour = one_minute * 60
+min_remaining_tostop = 30
+reqs = 0
+reqs_limit = None
+reqs_remaining = None
 headers = {'Authorization': 'token %s' % GITHUB_TOKEN} if GITHUB_TOKEN else {}
+
+
+def check_limits(headers):
+    reqs_limit = int(headers.get('X-RateLimit-Limit', 0))
+    reqs_remaining = int(headers.get('X-RateLimit-Remaining', 0))
+
+    if reqs_remaining <= min_remaining_tostop:
+        logger.info("Reached %d requests over %d. Pausing one hour."
+                    % (reqs_limit - reqs_remaining, reqs_limit))
+        pause(one_hour)
+
+
+def pause(duration):
+    ''' basic sleep with periodic logging (to show progess) '''
+    interval = 10
+    tick = duration / interval
+    for i in xrange(interval):
+        logger.info(u"Pause (%dmn) Elapsed: %dmn" % (duration / one_minute,
+                                                     tick * i / one_minute))
+        time.sleep(tick)
 
 existing_users = json.load(open('step2.json'))
 
@@ -29,6 +62,8 @@ def extend_user(user):
 
     def get_activity_from_html(username):
         r = requests.get('https://github.com/%s' % username, headers=headers)
+
+        check_limits(r.headers)
 
         parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("dom"))
         dom = parser.parse(StringIO.StringIO(r.content))
@@ -66,6 +101,9 @@ def extend_user(user):
     def get_profile(user):
         r = requests.get('https://api.github.com/users/%s' % user.get('username'),
                          headers=headers)
+
+        check_limits(r.headers)
+
         nd = {}
         data = json.loads(r.content)
         for col in data.keys():
@@ -75,6 +113,33 @@ def extend_user(user):
                 continue
             nd.update({col: data[col]})
         return nd
+
+    def get_orgs(user):
+        orgs = {}
+        r = requests.get('https://api.github.com/users/%s/orgs' % user.get('username'),
+                         headers=headers)
+
+        check_limits(r.headers)
+
+        data = json.loads(r.content)
+        for i, org in enumerate(data):
+            username = org.get('username')
+            prefix = 'org%d_' % i
+            rorg = requests.get('https://api.github.com/orgs/%s' % username,
+                                headers=headers)
+
+            check_limits(rorg.headers)
+
+            data_org = json.loads(rorg.content)
+            nd = {}
+            for col in data_org.keys():
+                if 'url' in col and not col == 'avatar_url':
+                    continue
+                if col in user.keys():
+                    continue
+                nd.update({prefix + col: data_org[col]})
+            orgs.update(nd)
+        return orgs
 
     try:
         acitiviy = get_activity_from_html(user.get('username'))
