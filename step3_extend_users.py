@@ -121,7 +121,7 @@ def extend_user(user):
 
         data = json.loads(r.content)
         for i, org in enumerate(data):
-            org_name = org.get('username')
+            org_name = org.get('login')
             prefix = 'org%d_' % i
             rorg = requests.get('https://api.github.com/orgs/%s' % org_name,
                                 headers=headers)
