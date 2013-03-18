@@ -1,0 +1,3011 @@
+{
+  "BF": {
+    "latitude": 12.3702778,
+    "patterns": [
+      {
+        "latitude": 12.3702778,
+        "name": "Ouagadougou",
+        "longitude": -1.5247222,
+        "patterns": [
+          "Ouaga"
+        ]
+      },
+      {
+        "latitude": 11.2,
+        "name": "Bobo Dioulasso",
+        "longitude": -4.3,
+        "patterns": [
+          "Bobo"
+        ]
+      },
+      {
+        "latitude": 12.25,
+        "name": "Koudougou",
+        "longitude": -2.3666667
+      },
+      {
+        "latitude": 10.6333333,
+        "name": "Banfora",
+        "longitude": -4.7666667
+      },
+      {
+        "latitude": 13.5833333,
+        "name": "Ouahigouya",
+        "longitude": -2.4166667
+      },
+      {
+        "latitude": 12.4666667,
+        "name": "D\u00e9dougou",
+        "longitude": -3.4666667
+      },
+      {
+        "latitude": 13.0916667,
+        "name": "Kaya",
+        "longitude": -1.0844444
+      },
+      {
+        "latitude": 11.78,
+        "name": "Tenkodogo",
+        "longitude": -0.3697222
+      },
+      {
+        "latitude": 11.5033333,
+        "name": "Ouargaye",
+        "longitude": 0.0572222
+      },
+      {
+        "latitude": 11.8,
+        "name": "Garango",
+        "longitude": -0.5505556
+      }
+    ],
+    "name": "Burkina Faso",
+    "longitude": -1.5247222,
+    "names": [
+      "Burkina",
+      "Faso"
+    ]
+  },
+  "BI": {
+    "latitude": -3.3761111,
+    "patterns": [
+      {
+        "latitude": -3.3761111,
+        "name": "Bujumbura",
+        "longitude": 29.36
+      },
+      {
+        "latitude": -2.8494444,
+        "name": "Muyinga",
+        "longitude": 30.3361111
+      },
+      {
+        "latitude": -3.4763889,
+        "name": "Ruyigi",
+        "longitude": 30.2486111
+      },
+      {
+        "latitude": -3.425,
+        "name": "Gitega",
+        "longitude": 29.9333333
+      },
+      {
+        "latitude": -2.9083333,
+        "name": "Ngozi",
+        "longitude": 29.8277778
+      },
+      {
+        "latitude": -3.9191667,
+        "name": "Rutana",
+        "longitude": 29.9936111
+      },
+      {
+        "latitude": -3.9511111,
+        "name": "Bururi",
+        "longitude": 29.6166667
+      },
+      {
+        "latitude": -4.1347222,
+        "name": "Makamba",
+        "longitude": 29.805
+      },
+      {
+        "latitude": -2.9222222,
+        "name": "Kayanza",
+        "longitude": 29.6222222
+      },
+      {
+        "latitude": -3.2680556,
+        "name": "Muramvya",
+        "longitude": 29.6166667
+      }
+    ],
+    "name": "Burundi",
+    "longitude": 29.36,
+    "names": [
+      "Burundi"
+    ]
+  },
+  "BJ": {
+    "latitude": 6.35,
+    "patterns": [
+      {
+        "latitude": 6.35,
+        "name": "Cotonou",
+        "longitude": 2.4333333
+      },
+      {
+        "latitude": 9.705,
+        "name": "Djougou",
+        "longitude": 1.6669444
+      },
+      {
+        "latitude": 9.35,
+        "name": "Parakou",
+        "longitude": 2.6166667
+      },
+      {
+        "latitude": 7.2,
+        "name": "Bohicon",
+        "longitude": 2.0666667
+      },
+      {
+        "latitude": 11.1341667,
+        "name": "Kandi",
+        "longitude": 2.9386111
+      },
+      {
+        "latitude": 6.6333333,
+        "name": "Lokossa",
+        "longitude": 1.7166667
+      },
+      {
+        "latitude": 6.3666667,
+        "name": "Ouidah",
+        "longitude": 2.0833333
+      },
+      {
+        "latitude": 7.1833333,
+        "name": "Abomey",
+        "longitude": 1.9833333
+      },
+      {
+        "latitude": 10.3066667,
+        "name": "Natitingou",
+        "longitude": 1.375
+      }
+    ],
+    "name": "Benin",
+    "longitude": 2.4333333,
+    "names": [
+      "Benin",
+      "B\u00e9nin"
+    ]
+  },
+  "BW": {
+    "latitude": -24.6463889,
+    "patterns": [
+      {
+        "latitude": -24.6463889,
+        "name": "Gaborone",
+        "longitude": 25.9119444
+      },
+      {
+        "latitude": -21.1666667,
+        "name": "Francistown",
+        "longitude": 27.5166667
+      },
+      {
+        "latitude": -24.4166667,
+        "name": "Molepolole",
+        "longitude": 25.5333333
+      },
+      {
+        "latitude": -19.9833333,
+        "name": "Maun",
+        "longitude": 23.4166667
+      },
+      {
+        "latitude": -22.3833333,
+        "name": "Serowe",
+        "longitude": 26.7166667
+      },
+      {
+        "latitude": -24.9833333,
+        "name": "Kanye",
+        "longitude": 25.35
+      },
+      {
+        "latitude": -23.0666667,
+        "name": "Mahalapye",
+        "longitude": 26.8333333
+      },
+      {
+        "latitude": -24.6269444,
+        "name": "Mogoditshane",
+        "longitude": 25.8655556
+      },
+      {
+        "latitude": -24.4166667,
+        "name": "Mochudi",
+        "longitude": 26.15
+      },
+      {
+        "latitude": -25.2166667,
+        "name": "Lobatse",
+        "longitude": 25.6666667
+      }
+    ],
+    "name": "Botswana",
+    "longitude": 25.9119444,
+    "names": [
+      "Botswana"
+    ]
+  },
+  "RW": {
+    "latitude": -1.9536111,
+    "patterns": [
+      {
+        "latitude": -1.9536111,
+        "name": "Kigali",
+        "longitude": 30.0605556
+      },
+      {
+        "latitude": -2.5966667,
+        "name": "Butare",
+        "longitude": 29.7394444
+      },
+      {
+        "latitude": -2.0744444,
+        "name": "Gitarama",
+        "longitude": 29.7566667
+      },
+      {
+        "latitude": -1.4833333,
+        "name": "Ruhengeri",
+        "longitude": 29.6166667
+      },
+      {
+        "latitude": -1.7027778,
+        "name": "Gisenyi",
+        "longitude": 29.2563889
+      },
+      {
+        "latitude": -1.5775,
+        "name": "Byumba",
+        "longitude": 30.0625
+      },
+      {
+        "latitude": -2.4833333,
+        "name": "Cyangugu",
+        "longitude": 28.8966667
+      },
+      {
+        "latitude": -2.5833333,
+        "name": "Nyanza",
+        "longitude": 29.7166667
+      },
+      {
+        "latitude": -2.3580556,
+        "name": "Nyanza",
+        "longitude": 29.7386111
+      },
+      {
+        "latitude": -1.9525,
+        "name": "Rwamagana",
+        "longitude": 30.4377778
+      }
+    ],
+    "name": "Rwanda",
+    "longitude": 30.0605556,
+    "names": [
+      "Rwanda"
+    ]
+  },
+  "NA": {
+    "latitude": -22.57,
+    "patterns": [
+      {
+        "latitude": -22.57,
+        "name": "Windhoek",
+        "longitude": 17.0836111
+      },
+      {
+        "latitude": -17.9333333,
+        "name": "Rundu",
+        "longitude": 19.7666667
+      },
+      {
+        "latitude": -22.9575,
+        "name": "Walvis",
+        "longitude": 14.5052778
+      },
+      {
+        "latitude": -17.7833333,
+        "name": "Oshakati",
+        "longitude": 15.6833333
+      },
+      {
+        "latitude": -22.6833333,
+        "name": "Swakopmund",
+        "longitude": 14.5333333
+      },
+      {
+        "latitude": -17.5,
+        "name": "Mulilo",
+        "longitude": 24.2666667
+      },
+      {
+        "latitude": -19.5666667,
+        "name": "Grootfontein",
+        "longitude": 18.1166667
+      },
+      {
+        "latitude": -20.45,
+        "name": "Otjiwarongo",
+        "longitude": 16.65
+      },
+      {
+        "latitude": -21.9833333,
+        "name": "Okahandja",
+        "longitude": 16.9166667
+      }
+    ],
+    "name": "Namibia",
+    "longitude": 17.0836111,
+    "names": [
+      "namibia",
+      "Namibi\u00eb"
+    ]
+  },
+  "NE": {
+    "latitude": 13.6666667,
+    "patterns": [
+      {
+        "latitude": 13.6666667,
+        "name": "Niamey",
+        "longitude": 1.7833333
+      },
+      {
+        "latitude": 13.8,
+        "name": "Zinder",
+        "longitude": 8.9833333
+      },
+      {
+        "latitude": 13.4916667,
+        "name": "Maradi",
+        "longitude": 7.0963889
+      },
+      {
+        "latitude": 16.9738889,
+        "name": "Agadez",
+        "longitude": 7.9908333
+      },
+      {
+        "latitude": 18.7325,
+        "name": "Arlit",
+        "longitude": 7.3680556
+      },
+      {
+        "latitude": 14.8902778,
+        "name": "Tahoua",
+        "longitude": 5.2677778
+      },
+      {
+        "latitude": 13.0444444,
+        "name": "Dosso",
+        "longitude": 3.1947222
+      },
+      {
+        "latitude": 13.7533333,
+        "name": "Tessaoua",
+        "longitude": 7.9863889
+      }
+    ],
+    "name": "Niger",
+    "longitude": 1.7833333,
+    "names": [
+      "Niger"
+    ]
+  },
+  "NG": {
+    "latitude": 6.453056,
+    "patterns": [
+      {
+        "latitude": 6.453056,
+        "name": "Lagos",
+        "longitude": 3.395833
+      },
+      {
+        "latitude": 11.994354,
+        "name": "Kano",
+        "longitude": 8.513807
+      },
+      {
+        "latitude": 7.387778,
+        "name": "Ibadan",
+        "longitude": 3.896389
+      },
+      {
+        "latitude": 10.522239,
+        "name": "Kaduna",
+        "longitude": 7.43828
+      },
+      {
+        "latitude": 4.777423,
+        "name": "Harcourt",
+        "longitude": 7.013404
+      },
+      {
+        "latitude": 6.335045,
+        "name": "Benin City",
+        "longitude": 5.627492,
+        "patterns": [
+
+        ]
+      },
+      {
+        "latitude": 11.846441,
+        "name": "Maiduguri",
+        "longitude": 13.160274
+      },
+      {
+        "latitude": 11.113236,
+        "name": "Zaria",
+        "longitude": 7.725176
+      },
+      {
+        "latitude": 5.106576,
+        "name": "Aba",
+        "longitude": 7.366667
+      },
+      {
+        "latitude": 8.133333,
+        "name": "Ogbomosho",
+        "longitude": 4.266667
+      },
+      {
+        "latitude": 9.083,
+        "name": "Abuja",
+        "longitude": 7.533
+      }
+    ],
+    "name": "Nigeria",
+    "longitude": 3.395833,
+    "names": [
+      "Nigeria"
+    ]
+  },
+  "GW": {
+    "latitude": 11.85,
+    "patterns": [
+      {
+        "latitude": 11.85,
+        "name": "Bissau",
+        "longitude": -15.5833333
+      },
+      {
+        "latitude": 12.1666667,
+        "name": "Bafat\u00e1",
+        "longitude": -14.6666667
+      },
+      {
+        "latitude": 12.2833333,
+        "name": "Gab\u00fa",
+        "longitude": -14.2166667
+      },
+      {
+        "latitude": 12.04,
+        "name": "Bissor\u00e3",
+        "longitude": -15.4280556
+      },
+      {
+        "latitude": 11.5833333,
+        "name": "Bolama",
+        "longitude": -15.4666667
+      },
+      {
+        "latitude": 12.2705556,
+        "name": "Cacheu",
+        "longitude": -16.1658333
+      },
+      {
+        "latitude": 11.2833333,
+        "name": "Bubaque",
+        "longitude": -15.8333333
+      },
+      {
+        "latitude": 11.2833333,
+        "name": "Cati\u00f3",
+        "longitude": -15.25
+      },
+      {
+        "latitude": 12.0733333,
+        "name": "Mans\u00f4a",
+        "longitude": -15.3188889
+      },
+      {
+        "latitude": 11.5833333,
+        "name": "Buba",
+        "longitude": -15
+      }
+    ],
+    "name": "Guinea-Bissau",
+    "longitude": -15.5833333,
+    "names": [
+      "bissau"
+    ]
+  },
+  "CI": {
+    "latitude": 5.309657,
+    "patterns": [
+      {
+        "latitude": 5.309657,
+        "name": "Abidjan",
+        "longitude": -4.012656
+      },
+      {
+        "latitude": 7.693846,
+        "name": "Bouak\u00e9",
+        "longitude": -5.030307
+      },
+      {
+        "latitude": 7.693846,
+        "name": "Bouake",
+        "longitude": -5.030307
+      },
+      {
+        "latitude": 6.877355,
+        "name": "Daloa",
+        "longitude": -6.450221
+      },
+      {
+        "latitude": 6.820548,
+        "name": "Yamoussoukro",
+        "longitude": -5.276741
+      },
+      {
+        "latitude": 5.83739,
+        "name": "Divo",
+        "longitude": -5.357229
+      },
+      {
+        "latitude": 9.458031,
+        "name": "Korhogo",
+        "longitude": -5.629608
+      },
+      {
+        "latitude": 5.494622,
+        "name": "Anyama",
+        "longitude": -4.051831
+      },
+      {
+        "latitude": 6.729722,
+        "name": "Abengourou",
+        "longitude": -3.496389
+      }
+    ],
+    "name": "C\u00f4te d'Ivoire",
+    "longitude": -4.012656,
+    "names": [
+      "ivoire"
+    ]
+  },
+  "CM": {
+    "latitude": 4.0502778,
+    "patterns": [
+      {
+        "latitude": 4.0502778,
+        "name": "Douala",
+        "longitude": 9.7
+      },
+      {
+        "latitude": 3.8666667,
+        "name": "Yaound\u00e9",
+        "longitude": 11.5166667
+      },
+      {
+        "latitude": 3.8666667,
+        "name": "Yaounde",
+        "longitude": 11.5166667
+      },
+      {
+        "latitude": 9.3,
+        "name": "Garoua",
+        "longitude": 13.4
+      },
+      {
+        "latitude": 12.0783333,
+        "name": "Kouss\u00e9ri",
+        "longitude": 15.0308333
+      },
+      {
+        "latitude": 5.9333333,
+        "name": "Bamenda",
+        "longitude": 10.1666667
+      },
+      {
+        "latitude": 10.5955556,
+        "name": "Maroua",
+        "longitude": 14.3247222
+      },
+      {
+        "latitude": 5.4666667,
+        "name": "Bafoussam",
+        "longitude": 10.4166667
+      },
+      {
+        "latitude": 10.7402778,
+        "name": "Mokolo",
+        "longitude": 13.8027778
+      },
+      {
+        "latitude": 7.3166667,
+        "name": "Ngaound\u00e9r\u00e9",
+        "longitude": 13.5833333
+      },
+      {
+        "latitude": 4.5833333,
+        "name": "Bertoua",
+        "longitude": 13.6833333
+      }
+    ],
+    "name": "Cameroon",
+    "longitude": 9.7,
+    "names": [
+      "Cameroon",
+      "Cameroun"
+    ]
+  },
+  "CG": {
+    "latitude": -4.2591667,
+    "patterns": [
+      {
+        "latitude": -4.2591667,
+        "name": "Brazzaville",
+        "longitude": 15.2847222
+      },
+      {
+        "latitude": -4.1655556,
+        "name": "Nkayi",
+        "longitude": 13.2927778
+      },
+      {
+        "latitude": -4.1997222,
+        "name": "Loubomo",
+        "longitude": 12.6738889
+      },
+      {
+        "latitude": -4.7561111,
+        "name": "Loandjili",
+        "longitude": 11.8577778
+      },
+      {
+        "latitude": -4.1536111,
+        "name": "Madingou",
+        "longitude": 13.55
+      },
+      {
+        "latitude": -2.9505556,
+        "name": "Mossendjo",
+        "longitude": 12.7261111
+      },
+      {
+        "latitude": -1.8763889,
+        "name": "Gamboma",
+        "longitude": 15.8644444
+      },
+      {
+        "latitude": 1.6380556,
+        "name": "Impfondo",
+        "longitude": 18.0666667
+      },
+      {
+        "latitude": -3.6858333,
+        "name": "Sibiti",
+        "longitude": 13.3458333
+      },
+      {
+        "latitude": 1.6136111,
+        "name": "Ou\u00e9sso",
+        "longitude": 16.0516667
+      }
+    ],
+    "name": "Congo",
+    "longitude": 15.2847222,
+    "names": [
+      "Congo"
+    ]
+  },
+  "CF": {
+    "latitude": 4.3666667,
+    "patterns": [
+      {
+        "latitude": 4.3666667,
+        "name": "Bangui",
+        "longitude": 18.5833333
+      },
+      {
+        "latitude": 4.9333333,
+        "name": "Carnot",
+        "longitude": 15.8666667
+      },
+      {
+        "latitude": 3.8833333,
+        "name": "Mba\u00efki",
+        "longitude": 18
+      },
+      {
+        "latitude": 4.2666667,
+        "name": "Berb\u00e9rati",
+        "longitude": 15.7833333
+      },
+      {
+        "latitude": 4.3,
+        "name": "Bimbo",
+        "longitude": 18.55
+      },
+      {
+        "latitude": 5.95,
+        "name": "Bouar",
+        "longitude": 15.6
+      },
+      {
+        "latitude": 5.7619444,
+        "name": "Bambari",
+        "longitude": 20.6672222
+      },
+      {
+        "latitude": 6.5333333,
+        "name": "Bria",
+        "longitude": 21.9833333
+      },
+      {
+        "latitude": 6.4833333,
+        "name": "Bossangoa",
+        "longitude": 17.45
+      }
+    ],
+    "name": "Central African Republic",
+    "longitude": 18.5833333,
+    "names": [
+      "Centrafrique",
+      "centrafricaine"
+    ]
+  },
+  "CD": {
+    "latitude": -4.3,
+    "patterns": [
+      {
+        "latitude": -4.3,
+        "name": "Kinshasa",
+        "longitude": 15.3
+      },
+      {
+        "latitude": -11.666667,
+        "name": "Lubumbashi",
+        "longitude": 27.466667
+      },
+      {
+        "latitude": -6.15,
+        "name": "Mbuji",
+        "longitude": 23.6
+      },
+      {
+        "latitude": 0.516667,
+        "name": "Kisangani",
+        "longitude": 25.2
+      },
+      {
+        "latitude": -5.895833,
+        "name": "Kananga",
+        "longitude": 22.417778
+      },
+      {
+        "latitude": -10.981389,
+        "name": "Likasi",
+        "longitude": 26.733333
+      },
+      {
+        "latitude": -5.85,
+        "name": "Boma",
+        "longitude": 13.05
+      },
+      {
+        "latitude": -6.416667,
+        "name": "Tshikapa",
+        "longitude": 20.8
+      },
+      {
+        "latitude": -2.508333,
+        "name": "Bukavu",
+        "longitude": 28.860833
+      }
+    ],
+    "name": "Congo D.R.C",
+    "longitude": 15.3,
+    "names": [
+      "RDC",
+      "R.D.C",
+      "D.R.C",
+      "DRC"
+    ]
+  },
+  "GA": {
+    "latitude": 0.3833333,
+    "patterns": [
+      {
+        "latitude": 0.3833333,
+        "name": "Libreville",
+        "longitude": 9.45
+      },
+      {
+        "latitude": -0.7166667,
+        "name": "Gentil",
+        "longitude": 8.7833333
+      },
+      {
+        "latitude": 1.6166667,
+        "name": "Oyem",
+        "longitude": 11.5833333
+      },
+      {
+        "latitude": -1.5666667,
+        "name": "Moanda",
+        "longitude": 13.2
+      },
+      {
+        "latitude": -1.8666667,
+        "name": "Mouila",
+        "longitude": 11.0166667
+      },
+      {
+        "latitude": -0.7,
+        "name": "Lambar\u00e9n\u00e9",
+        "longitude": 10.2166667
+      },
+      {
+        "latitude": -2.85,
+        "name": "Tchibanga",
+        "longitude": 11.0333333
+      },
+      {
+        "latitude": -1.1333333,
+        "name": "Koulamoutou",
+        "longitude": 12.4833333
+      },
+      {
+        "latitude": 0.5666667,
+        "name": "Makokou",
+        "longitude": 12.8666667
+      },
+      {
+        "latitude": 2.0833333,
+        "name": "Bitam",
+        "longitude": 11.4833333
+      }
+    ],
+    "name": "Gabon",
+    "longitude": 9.45,
+    "names": [
+      "Gabon"
+    ]
+  },
+  "GN": {
+    "latitude": 9.5091667,
+    "patterns": [
+      {
+        "latitude": 9.5091667,
+        "name": "Conakry",
+        "longitude": -13.7122222
+      },
+      {
+        "latitude": 7.7472222,
+        "name": "Nz\u00e9r\u00e9kor\u00e9",
+        "longitude": -8.8238889
+      },
+      {
+        "latitude": 10.0666667,
+        "name": "Kindia",
+        "longitude": -12.85
+      },
+      {
+        "latitude": 10.3833333,
+        "name": "Kankan",
+        "longitude": -9.3
+      },
+      {
+        "latitude": 9.1833333,
+        "name": "Kissidougou",
+        "longitude": -10.1
+      },
+      {
+        "latitude": 11.3166667,
+        "name": "Lab\u00e9",
+        "longitude": -12.2833333
+      },
+      {
+        "latitude": 11.4166667,
+        "name": "Siguiri",
+        "longitude": -9.1666667
+      },
+      {
+        "latitude": 8.5461111,
+        "name": "Macenta",
+        "longitude": -9.4694444
+      },
+      {
+        "latitude": 10.9,
+        "name": "T\u00e9lim\u00e9l\u00e9",
+        "longitude": -13.0333333
+      }
+    ],
+    "name": "Guinea",
+    "longitude": -13.7122222,
+    "names": [
+      "Guinea",
+      "guinee",
+      "guin\u00e9e"
+    ]
+  },
+  "GM": {
+    "latitude": 13.4530556,
+    "patterns": [
+      {
+        "latitude": 13.4425,
+        "name": "Serekunda",
+        "longitude": -16.6813889
+      },
+      {
+        "latitude": 13.2675,
+        "name": "Brikama",
+        "longitude": -16.6461111
+      },
+      {
+        "latitude": 13.4780556,
+        "name": "Bakau",
+        "longitude": -16.6819444
+      },
+      {
+        "latitude": 13.5666667,
+        "name": "Farafenni",
+        "longitude": -15.6
+      },
+      {
+        "latitude": 13.4530556,
+        "name": "Banjul",
+        "longitude": -16.5775
+      },
+      {
+        "latitude": 13.3522222,
+        "name": "Lamin",
+        "longitude": -16.4338889
+      },
+      {
+        "latitude": 13.4113889,
+        "name": "Sukuta",
+        "longitude": -16.7088889
+      },
+      {
+        "latitude": 13.1816667,
+        "name": "Gunjur",
+        "longitude": -16.7583333
+      },
+      {
+        "latitude": 13.65,
+        "name": "Kuntaur",
+        "longitude": -14.8666667
+      }
+    ],
+    "name": "Gambia",
+    "longitude": -16.5775,
+    "names": [
+      "Gambia"
+    ]
+  },
+  "GH": {
+    "latitude": 5.5,
+    "patterns": [
+      {
+        "latitude": 5.55,
+        "name": "Accra",
+        "longitude": -0.2166667
+      },
+      {
+        "latitude": 6.6833333,
+        "name": "Kumasi",
+        "longitude": -1.6166667
+      },
+      {
+        "latitude": 9.4,
+        "name": "Tamale",
+        "longitude": -0.8333333
+      },
+      {
+        "latitude": 5.6166667,
+        "name": "Tema",
+        "longitude": -0.0166667
+      },
+      {
+        "latitude": 5.5833333,
+        "name": "Teshie",
+        "longitude": -0.1
+      },
+      {
+        "latitude": 5.1,
+        "name": "Cape-Coast",
+        "longitude": -1.25
+      },
+      {
+        "latitude": 6.2,
+        "name": "Obuasi",
+        "longitude": -1.6666667
+      },
+      {
+        "latitude": 4.8833333,
+        "name": "Takoradi",
+        "longitude": -1.75
+      },
+      {
+        "latitude": 4.9333333,
+        "name": "Sekondi",
+        "longitude": -1.7
+      },
+      {
+        "latitude": 6.0833333,
+        "name": "Koforidua",
+        "longitude": -0.25
+      }
+    ],
+    "name": "Ghana",
+    "longitude": -0.2166667,
+    "names": [
+      "Ghana"
+    ]
+  },
+  "SZ": {
+    "latitude": -26.4666667,
+    "patterns": [
+      {
+        "latitude": -26.4833333,
+        "name": "Manzini",
+        "longitude": 31.3666667
+      },
+      {
+        "latitude": -26.3166667,
+        "name": "Mbabane",
+        "longitude": 31.1333333
+      },
+      {
+        "latitude": -26.8166667,
+        "name": "Big-Bend",
+        "longitude": 31.9333333
+      },
+      {
+        "latitude": -26.5666667,
+        "name": "Malkerns",
+        "longitude": 31.1833333
+      },
+      {
+        "latitude": -27.1166667,
+        "name": "Nhlangano",
+        "longitude": 31.2
+      },
+      {
+        "latitude": -26.0333333,
+        "name": "Mhlume",
+        "longitude": 31.85
+      },
+      {
+        "latitude": -27.2166667,
+        "name": "Hluti",
+        "longitude": 31.6166667
+      },
+      {
+        "latitude": -26.45,
+        "name": "Siteki",
+        "longitude": 31.95
+      },
+      {
+        "latitude": -26.4666667,
+        "name": "Lobamba",
+        "longitude": 31.2
+      },
+      {
+        "latitude": -26.4833333,
+        "name": "Kwaluseni",
+        "longitude": 31.3333333
+      }
+    ],
+    "name": "Swaziland",
+    "longitude": 31.2,
+    "names": [
+      "Swaziland"
+    ]
+  },
+  "KE": {
+    "latitude": -1.2833333,
+    "patterns": [
+      {
+        "latitude": -1.2833333,
+        "name": "Nairobi",
+        "longitude": 36.8166667
+      },
+      {
+        "latitude": -4.05,
+        "name": "Mombasa",
+        "longitude": 39.6666667
+      },
+      {
+        "latitude": -0.2833333,
+        "name": "Nakuru",
+        "longitude": 36.0666667
+      },
+      {
+        "latitude": 0.5166667,
+        "name": "Eldoret",
+        "longitude": 35.2833333
+      },
+      {
+        "latitude": -0.1,
+        "name": "Kisumu",
+        "longitude": 34.75
+      },
+      {
+        "latitude": -1.15,
+        "name": "Ruiru",
+        "longitude": 36.9666667
+      },
+      {
+        "latitude": -1.05,
+        "name": "Thika",
+        "longitude": 37.0833333
+      },
+      {
+        "latitude": 1.0166667,
+        "name": "Kitale",
+        "longitude": 35
+      },
+      {
+        "latitude": -3.2166667,
+        "name": "Malindi",
+        "longitude": 40.1166667
+      },
+      {
+        "latitude": -0.4569444,
+        "name": "Garissa",
+        "longitude": 39.6583333
+      }
+    ],
+    "name": "Kenya",
+    "longitude": 36.8166667,
+    "names": [
+      "Kenya"
+    ]
+  },
+  "SS": {
+    "latitude": 4.85,
+    "patterns": [
+      {
+        "latitude": 4.85,
+        "name": "Juba",
+        "longitude": 31.6
+      }
+    ],
+    "name": "South Sudan",
+    "longitude": 31.6,
+    "names": [
+      "South-Sudan"
+    ]
+  },
+  "KM": {
+    "latitude": -11.7041667,
+    "patterns": [
+      {
+        "latitude": -11.7041667,
+        "name": "Moroni",
+        "longitude": 43.2402778
+      },
+      {
+        "latitude": -12.1627778,
+        "name": "Mutsamudu",
+        "longitude": 44.3963889
+      },
+      {
+        "latitude": -12.28,
+        "name": "Fomboni",
+        "longitude": 43.7425
+      },
+      {
+        "latitude": -12.2569444,
+        "name": "Domoni",
+        "longitude": 44.5319444
+      },
+      {
+        "latitude": -11.3847222,
+        "name": "Mitsamiouli",
+        "longitude": 43.2844444
+      },
+      {
+        "latitude": -12.7333333,
+        "name": "Accua",
+        "longitude": 45.05
+      },
+      {
+        "latitude": -12.7333333,
+        "name": "Acoua",
+        "longitude": 45.05
+      },
+      {
+        "latitude": -12.7333333,
+        "name": "Acua",
+        "longitude": 45.05
+      },
+      {
+        "latitude": -12.1833333,
+        "name": "Afombani",
+        "longitude": 44.3
+      }
+    ],
+    "name": "Comoros",
+    "longitude": 43.2402778,
+    "names": [
+      "Comoros",
+      "Komori",
+      "Qumur",
+      "\u064a",
+      "Comores"
+    ]
+  },
+  "SO": {
+    "latitude": 2.0666667,
+    "patterns": [
+      {
+        "latitude": 2.0666667,
+        "name": "Mogadishu",
+        "longitude": 45.3666667
+      },
+      {
+        "latitude": 9.5833333,
+        "name": "Hargeysa",
+        "longitude": 44.0666667
+      },
+      {
+        "latitude": 10.4355556,
+        "name": "Berbera",
+        "longitude": 45.0163889
+      },
+      {
+        "latitude": -0.3666667,
+        "name": "Kismayo",
+        "longitude": 42.5333333
+      },
+      {
+        "latitude": 0.0722222,
+        "name": "Jamame",
+        "longitude": 42.7505556
+      },
+      {
+        "latitude": 11.2847222,
+        "name": "Bosaso",
+        "longitude": 49.1825
+      },
+      {
+        "latitude": 2.15,
+        "name": "Afgoye",
+        "longitude": 45.1166667
+      },
+      {
+        "latitude": 8.4,
+        "name": "Garowe",
+        "longitude": 48.5
+      },
+      {
+        "latitude": 2.7666667,
+        "name": "Jawhar",
+        "longitude": 45.5166667
+      },
+      {
+        "latitude": 0.4958333,
+        "name": "Jilib",
+        "longitude": 42.7727778
+      }
+    ],
+    "name": "Somalia",
+    "longitude": 45.3666667,
+    "names": [
+      "Somalia",
+      "Soomaaliya",
+      "\u0627\u0644\u0635\u0648\u0645\u0627\u0644\u200e"
+    ]
+  },
+  "SN": {
+    "latitude": 14.6708333,
+    "patterns": [
+      {
+        "latitude": 14.6708333,
+        "name": "Dakar",
+        "longitude": -17.4380556
+      },
+      {
+        "latitude": 14.8,
+        "name": "Thi\u00e8s",
+        "longitude": -16.9333333
+      },
+      {
+        "latitude": 14.8,
+        "name": "Thies",
+        "longitude": -16.9333333
+      },
+      {
+        "latitude": 14.15,
+        "name": "Kaolack",
+        "longitude": -16.0666667
+      },
+      {
+        "latitude": 12.5833333,
+        "name": "Ziguinchor",
+        "longitude": -16.2719444
+      },
+      {
+        "latitude": 14.4,
+        "name": "Mbour",
+        "longitude": -16.9666667
+      },
+      {
+        "latitude": 16.0188889,
+        "name": "Saint-Louis",
+        "longitude": -16.4952778
+      },
+      {
+        "latitude": 14.6666667,
+        "name": "Diourbel",
+        "longitude": -16.25
+      },
+      {
+        "latitude": 15.6166667,
+        "name": "Louga",
+        "longitude": -16.2166667
+      },
+      {
+        "latitude": 13.7833333,
+        "name": "Tambacounda",
+        "longitude": -13.6666667
+      }
+    ],
+    "name": "Senegal",
+    "longitude": -17.4380556,
+    "names": [
+      "Senegal",
+      "S\u00e9n\u00e9gal"
+    ]
+  },
+  "SL": {
+    "latitude": 8.49,
+    "patterns": [
+      {
+        "latitude": 8.49,
+        "name": "Freetown",
+        "longitude": -13.2341667
+      },
+      {
+        "latitude": 8.4166667,
+        "name": "Koidu",
+        "longitude": -10.8333333
+      },
+      {
+        "latitude": 7.8766667,
+        "name": "Kenema",
+        "longitude": -11.1875
+      },
+      {
+        "latitude": 8.5666667,
+        "name": "Makeni",
+        "longitude": -11.9666667
+      },
+      {
+        "latitude": 8.6833333,
+        "name": "Lunsar",
+        "longitude": -12.5333333
+      },
+      {
+        "latitude": 9.5833333,
+        "name": "Kabala",
+        "longitude": -11.55
+      },
+      {
+        "latitude": 8.6166667,
+        "name": "Yengema",
+        "longitude": -11.05
+      }
+    ],
+    "name": "Sierra Leone",
+    "longitude": -13.2341667,
+    "names": [
+      "Leone"
+    ]
+  },
+  "SD": {
+    "latitude": 15.5880556,
+    "patterns": [
+      {
+        "latitude": 15.6361111,
+        "name": "Durman",
+        "longitude": 32.4372222
+      },
+      {
+        "latitude": 15.5880556,
+        "name": "Khartoum",
+        "longitude": 32.5341667
+      },
+      {
+        "latitude": 15.4558333,
+        "name": "Kassala",
+        "longitude": 36.3988889
+      },
+      {
+        "latitude": 13.1666667,
+        "name": "Kusti",
+        "longitude": 32.6666667
+      },
+      {
+        "latitude": 9.5369444,
+        "name": "Malakal",
+        "longitude": 31.6561111
+      },
+      {
+        "latitude": 13.15,
+        "name": "Rabak",
+        "longitude": 32.7333333
+      },
+      {
+        "latitude": 13.55,
+        "name": "Sinnar",
+        "longitude": 33.6333333
+      }
+    ],
+    "name": "Sudan",
+    "longitude": 32.5341667,
+    "names": [
+      "Sudan",
+      "\u0627\u0644\u0633\u0648\u062f\u0627\u0646\u200e"
+    ]
+  },
+  "DJ": {
+    "latitude": 11.595,
+    "patterns": [
+      {
+        "latitude": 11.595,
+        "name": "Jibuti",
+        "longitude": 43.1480556
+      },
+      {
+        "latitude": 11.1333333,
+        "name": "Adda",
+        "longitude": 42.8858333
+      },
+      {
+        "latitude": 11.7702778,
+        "name": "Airolaf",
+        "longitude": 42.6519444
+      },
+      {
+        "latitude": 12.4216667,
+        "name": "Alaili",
+        "longitude": 42.8955556
+      }
+    ],
+    "name": "Djibouti",
+    "longitude": 43.1480556,
+    "names": [
+      "Djibouti",
+      "\u062c\u064a\u0628\u0648\u062a\u064a\u200e",
+      "Jabuuti",
+      "Gabuuti"
+    ]
+  },
+  "DZ": {
+    "latitude": 36.7630556,
+    "patterns": [
+      {
+        "latitude": 36.7630556,
+        "name": "Algiers",
+        "longitude": 3.0505556,
+        "patterns": [
+          "Alger",
+          "Algiers"
+        ]
+      },
+      {
+        "latitude": 35.6911111,
+        "name": "Wahran",
+        "longitude": -0.6416667
+      },
+      {
+        "latitude": 36.365,
+        "name": "Constantine",
+        "longitude": 6.6147222
+      },
+      {
+        "latitude": 31.9575,
+        "name": "Warqla",
+        "longitude": 5.3277778
+      },
+      {
+        "latitude": 36.2675,
+        "name": "M\u00e9d\u00e9a",
+        "longitude": 2.75
+      },
+      {
+        "latitude": 27.9,
+        "name": "Adrar",
+        "longitude": -0.2833333
+      },
+      {
+        "latitude": 34.1088889,
+        "name": "Aflu",
+        "longitude": 2.1019444
+      },
+      {
+        "latitude": 35.635,
+        "name": "Birin",
+        "longitude": 3.225
+      },
+      {
+        "latitude": 33.1,
+        "name": "Tuggurt",
+        "longitude": 6.0666667
+      },
+      {
+        "latitude": 36.8,
+        "name": "Timizart",
+        "longitude": 4.2666667
+      }
+    ],
+    "name": "Algeria",
+    "longitude": 3.0505556,
+    "names": [
+      "Algeria",
+      "Algerie",
+      "\u0627\u0644\u062c\u0632\u0627\u0626\u0631\u200e"
+    ]
+  },
+  "TZ": {
+    "latitude": -6.8,
+    "patterns": [
+      {
+        "latitude": -6.8,
+        "name": "Salaam",
+        "longitude": 39.2833333
+      },
+      {
+        "latitude": -2.5166667,
+        "name": "Mwanza",
+        "longitude": 32.9
+      },
+      {
+        "latitude": -6.1666667,
+        "name": "Zanzibar",
+        "longitude": 39.1833333
+      },
+      {
+        "latitude": -3.3666667,
+        "name": "Arusha",
+        "longitude": 36.6833333
+      },
+      {
+        "latitude": -8.9,
+        "name": "Mbeya",
+        "longitude": 33.45
+      },
+      {
+        "latitude": -6.8166667,
+        "name": "Morogoro",
+        "longitude": 37.6666667
+      },
+      {
+        "latitude": -5.0666667,
+        "name": "Tanga",
+        "longitude": 39.1
+      },
+      {
+        "latitude": -6.1833333,
+        "name": "Dodoma",
+        "longitude": 35.75
+      },
+      {
+        "latitude": -4.8769444,
+        "name": "Kigoma",
+        "longitude": 29.6266667
+      },
+      {
+        "latitude": -3.35,
+        "name": "Moshi",
+        "longitude": 37.3333333
+      }
+    ],
+    "name": "Tanzania",
+    "longitude": 39.2833333,
+    "names": [
+      "Tanzania"
+    ]
+  },
+  "GQ": {
+    "latitude": 3.75,
+    "patterns": [
+      {
+        "latitude": 1.85,
+        "name": "Bata",
+        "longitude": 9.75
+      },
+      {
+        "latitude": 3.75,
+        "name": "Malabo",
+        "longitude": 8.7833333
+      },
+      {
+        "latitude": 2.15,
+        "name": "Ebebiy\u00edn",
+        "longitude": 11.3333333
+      },
+      {
+        "latitude": 1.3,
+        "name": "Aconibe",
+        "longitude": 10.9333333
+      },
+      {
+        "latitude": 1.85,
+        "name": "A\u00f1isoc",
+        "longitude": 10.7666667
+      },
+      {
+        "latitude": 3.45,
+        "name": "Luba",
+        "longitude": 8.55
+      },
+      {
+        "latitude": 1.45,
+        "name": "Evinayong",
+        "longitude": 10.5666667
+      },
+      {
+        "latitude": 1.6333333,
+        "name": "Mongomo",
+        "longitude": 11.3166667
+      },
+      {
+        "latitude": 2.1333333,
+        "name": "Micomeseng",
+        "longitude": 10.6166667
+      },
+      {
+        "latitude": 1.5833333,
+        "name": "Mbini",
+        "longitude": 9.6166667
+      }
+    ],
+    "name": "Equatorial Guinea",
+    "longitude": 8.7833333,
+    "names": [
+      "Equatorial",
+      "Ecuatorial",
+      "\u00e9quatoriale"
+    ]
+  },
+  "TN": {
+    "latitude": 36.806112,
+    "patterns": [
+      {
+        "latitude": 36.806112,
+        "name": "Tunis",
+        "longitude": 10.171078
+      },
+      {
+        "latitude": 34.740556,
+        "name": "Safaqis",
+        "longitude": 10.760278
+      },
+      {
+        "latitude": 36.860117,
+        "name": "Aryanah",
+        "longitude": 10.193371
+      },
+      {
+        "latitude": 35.825388,
+        "name": "Susah",
+        "longitude": 10.636991
+      },
+      {
+        "latitude": 33.881457,
+        "name": "Qabis",
+        "longitude": 10.098196
+      },
+      {
+        "latitude": 34.425,
+        "name": "Qafsah",
+        "longitude": 8.784167
+      },
+      {
+        "latitude": 33.503981,
+        "name": "Jarjis",
+        "longitude": 11.112155
+      },
+      {
+        "latitude": 36.809167,
+        "name": "Bardaw",
+        "longitude": 10.140556
+      },
+      {
+        "latitude": 35.729173,
+        "name": "Masakin",
+        "longitude": 10.58082
+      },
+      {
+        "latitude": 32.929674,
+        "name": "Tatawin",
+        "longitude": 10.451767
+      }
+    ],
+    "name": "Tunisia",
+    "longitude": 10.171078,
+    "names": [
+      "Tunisia",
+      "\u062a\u0648\u0646\u0633\u200e",
+      "Tunisie"
+    ]
+  },
+  "LR": {
+    "latitude": 6.3105556,
+    "patterns": [
+      {
+        "latitude": 6.3105556,
+        "name": "Monrovia",
+        "longitude": -10.8047222
+      },
+      {
+        "latitude": 6.9955556,
+        "name": "Gbarnga",
+        "longitude": -9.4722222
+      },
+      {
+        "latitude": 6.4461111,
+        "name": "Bensonville",
+        "longitude": -10.6125
+      },
+      {
+        "latitude": 4.375,
+        "name": "Harper",
+        "longitude": -7.7169444
+      },
+      {
+        "latitude": 5.8808333,
+        "name": "Buchanan",
+        "longitude": -10.0466667
+      },
+      {
+        "latitude": 6.0666667,
+        "name": "Zwedru",
+        "longitude": -8.1280556
+      },
+      {
+        "latitude": 7.5794444,
+        "name": "Yekepa",
+        "longitude": -8.5377778
+      },
+      {
+        "latitude": 7.3022222,
+        "name": "Ganta",
+        "longitude": -8.5308333
+      },
+      {
+        "latitude": 6.7533333,
+        "name": "Robertsport",
+        "longitude": -11.3686111
+      },
+      {
+        "latitude": 6.8708333,
+        "name": "Tubmanburg",
+        "longitude": -10.8172222
+      }
+    ],
+    "name": "Liberia",
+    "longitude": -10.8047222,
+    "names": [
+      "Liberia"
+    ]
+  },
+  "LS": {
+    "latitude": -29.3166667,
+    "patterns": [
+      {
+        "latitude": -29.3166667,
+        "name": "Maseru",
+        "longitude": 27.4833333
+      },
+      {
+        "latitude": -28.8833333,
+        "name": "Hlotse",
+        "longitude": 28.05
+      },
+      {
+        "latitude": -29.8166667,
+        "name": "Mafeteng",
+        "longitude": 27.25
+      },
+      {
+        "latitude": -29.15,
+        "name": "Teyateyaneng",
+        "longitude": 27.7333333
+      },
+      {
+        "latitude": -30.4,
+        "name": "Quthing",
+        "longitude": 27.7166667
+      },
+      {
+        "latitude": -29.2833333,
+        "name": "Mokhotlong",
+        "longitude": 29.0833333
+      },
+      {
+        "latitude": -29.5333333,
+        "name": "Thaba-Tseka",
+        "longitude": 28.6
+      },
+      {
+        "latitude": -29.6333333,
+        "name": "Abebe",
+        "longitude": 27.65
+      },
+      {
+        "latitude": -30.4,
+        "name": "Alwyns Kop",
+        "longitude": 27.6166667
+      }
+    ],
+    "name": "Lesotho",
+    "longitude": 27.4833333,
+    "names": [
+      "Lesotho"
+    ]
+  },
+  "TG": {
+    "latitude": 6.1372,
+    "patterns": [
+      {
+        "latitude": 6.1372,
+        "name": "Lom\u00e9",
+        "longitude": 1.2125
+      },
+      {
+        "latitude": 6.1372,
+        "name": "Lome",
+        "longitude": 1.2125
+      },
+      {
+        "latitude": 6.9,
+        "name": "Kpalim\u00e9",
+        "longitude": 0.6333333
+      },
+      {
+        "latitude": 6.9,
+        "name": "Kpalime",
+        "longitude": 0.6333333
+      },
+      {
+        "latitude": 8.9833333,
+        "name": "Sokod\u00e9",
+        "longitude": 1.1333333
+      },
+      {
+        "latitude": 8.9833333,
+        "name": "Sokode",
+        "longitude": 1.1333333
+      },
+      {
+        "latitude": 9.5511111,
+        "name": "Kara",
+        "longitude": 1.1861111
+      },
+      {
+        "latitude": 7.5333333,
+        "name": "Atakpam\u00e9",
+        "longitude": 1.1333333
+      },
+      {
+        "latitude": 9.25,
+        "name": "Bassar",
+        "longitude": 0.7833333
+      },
+      {
+        "latitude": 6.4261111,
+        "name": "Ts\u00e9vi\u00e9",
+        "longitude": 1.2133333
+      },
+      {
+        "latitude": 6.2333333,
+        "name": "An\u00e9ho",
+        "longitude": 1.6
+      },
+      {
+        "latitude": 10.8638889,
+        "name": "Dapaong",
+        "longitude": 0.205
+      },
+      {
+        "latitude": 6.95,
+        "name": "Nots\u00e9",
+        "longitude": 1.1666667
+      }
+    ],
+    "name": "Togo",
+    "longitude": 1.2125,
+    "names": [
+      "Togo"
+    ]
+  },
+  "TD": {
+    "latitude": 12.116667,
+    "patterns": [
+      {
+        "latitude": 12.116667,
+        "name": "Djamena",
+        "longitude": 15.05
+      },
+      {
+        "latitude": 8.5666667,
+        "name": "Moundou",
+        "longitude": 16.0833333
+      },
+      {
+        "latitude": 9.15,
+        "name": "Sarh",
+        "longitude": 18.3833333
+      },
+      {
+        "latitude": 13.8166667,
+        "name": "Ab\u00e9ch\u00e9",
+        "longitude": 20.8166667
+      },
+      {
+        "latitude": 9.3166667,
+        "name": "K\u00e9lo",
+        "longitude": 15.8
+      },
+      {
+        "latitude": 8.9166667,
+        "name": "Koumra",
+        "longitude": 17.55
+      },
+      {
+        "latitude": 9.35,
+        "name": "Pala",
+        "longitude": 14.9666667
+      },
+      {
+        "latitude": 10.2805556,
+        "name": "Bongor",
+        "longitude": 15.3722222
+      },
+      {
+        "latitude": 12.1833333,
+        "name": "Mongo",
+        "longitude": 18.7
+      },
+      {
+        "latitude": 8.65,
+        "name": "Doba",
+        "longitude": 16.85
+      }
+    ],
+    "name": "Chad",
+    "longitude": 15.05,
+    "names": [
+      "Chad",
+      "Tchad",
+      "\u062a\u0634\u0627\u062f\u200e"
+    ]
+  },
+  "ZM": {
+    "latitude": -15.4166667,
+    "patterns": [
+      {
+        "latitude": -15.4166667,
+        "name": "Lusaka",
+        "longitude": 28.2833333
+      },
+      {
+        "latitude": -12.8166667,
+        "name": "Kitwe",
+        "longitude": 28.2
+      },
+      {
+        "latitude": -12.9666667,
+        "name": "Ndola",
+        "longitude": 28.6333333
+      },
+      {
+        "latitude": -14.4333333,
+        "name": "Kabwe",
+        "longitude": 28.45
+      },
+      {
+        "latitude": -12.5333333,
+        "name": "Chingola",
+        "longitude": 27.85
+      },
+      {
+        "latitude": -12.55,
+        "name": "Mufulira",
+        "longitude": 28.2333333
+      },
+      {
+        "latitude": -13.1333333,
+        "name": "Luanshya",
+        "longitude": 28.4
+      },
+      {
+        "latitude": -17.85,
+        "name": "Livingstone",
+        "longitude": 25.8666667
+      },
+      {
+        "latitude": -13.6333333,
+        "name": "Chipata",
+        "longitude": 32.65
+      }
+    ],
+    "name": "Zambia",
+    "longitude": 28.2833333,
+    "names": [
+      "Zambia"
+    ]
+  },
+  "EG": {
+    "latitude": 30.05,
+    "patterns": [
+      {
+        "latitude": 30.05,
+        "name": "Cairo",
+        "longitude": 31.25
+      },
+      {
+        "latitude": 31.1980556,
+        "name": "Alexandria",
+        "longitude": 29.9191667
+      },
+      {
+        "latitude": 30.0086111,
+        "name": "Gizeh",
+        "longitude": 31.2122222
+      },
+      {
+        "latitude": 31.2666667,
+        "name": "Said",
+        "longitude": 32.3
+      },
+      {
+        "latitude": 29.9666667,
+        "name": "Suez",
+        "longitude": 32.55
+      },
+      {
+        "latitude": 30.9761111,
+        "name": "Mahalla",
+        "longitude": 31.1669444
+      },
+      {
+        "latitude": 25.6833333,
+        "name": "Luxor",
+        "longitude": 32.65
+      },
+      {
+        "latitude": 27.1827778,
+        "name": "Asyut",
+        "longitude": 31.1827778
+      },
+      {
+        "latitude": 30.7911111,
+        "name": "Tanta",
+        "longitude": 30.9980556
+      }
+    ],
+    "name": "Egypt",
+    "longitude": 31.25,
+    "names": [
+      "Egypt",
+      "\u0645\u0635\u0631\u200e"
+    ]
+  },
+  "ZA": {
+    "latitude": -33.925839,
+    "patterns": [
+      {
+        "latitude": -33.925839,
+        "name": "Cape Town",
+        "longitude": 18.423218,
+        "patterns": [
+
+        ]
+      },
+      {
+        "latitude": -29.857896,
+        "name": "Durban",
+        "longitude": 31.029198
+      },
+      {
+        "latitude": -26.205171,
+        "name": "Johannesburg",
+        "longitude": 28.049815
+      },
+      {
+        "latitude": -26.267812,
+        "name": "Soweto",
+        "longitude": 27.858492
+      },
+      {
+        "latitude": -25.706944,
+        "name": "Pretoria",
+        "longitude": 28.229444
+      },
+      {
+        "latitude": -33.917988,
+        "name": "Elizabeth",
+        "longitude": 25.570066
+      },
+      {
+        "latitude": -29.616785,
+        "name": "Pietermaritzburg",
+        "longitude": 30.39278
+      },
+      {
+        "latitude": -26.190851,
+        "name": "Benoni",
+        "longitude": 28.311338
+      },
+      {
+        "latitude": -25.996363,
+        "name": "Tembisa",
+        "longitude": 28.226802
+      },
+      {
+        "latitude": -26.673133,
+        "name": "Vereeniging",
+        "longitude": 27.926147
+      }
+    ],
+    "name": "South Africa",
+    "longitude": 18.423218,
+    "names": [
+      "Africa",
+      "Afrika",
+      "Aforika",
+      "Afurika"
+    ]
+  },
+  "AO": {
+    "latitude": -8.836804,
+    "patterns": [
+      {
+        "latitude": -8.836804,
+        "name": "Luanda",
+        "longitude": 13.233174
+      },
+      {
+        "latitude": -12.776111,
+        "name": "Huambo",
+        "longitude": 15.739167
+      },
+      {
+        "latitude": -12.319722,
+        "name": "Lobito",
+        "longitude": 13.599722
+      },
+      {
+        "latitude": -12.578333,
+        "name": "Benguela",
+        "longitude": 13.407222
+      },
+      {
+        "latitude": -12.383333,
+        "name": "Kuito",
+        "longitude": 16.933333
+      },
+      {
+        "latitude": -14.916667,
+        "name": "Lubango",
+        "longitude": 13.5
+      },
+      {
+        "latitude": -9.544722,
+        "name": "Malanje",
+        "longitude": 16.345278
+      },
+      {
+        "latitude": -15.196111,
+        "name": "Namibe",
+        "longitude": 12.152222
+      },
+      {
+        "latitude": -5.55,
+        "name": "Cabinda",
+        "longitude": 12.2
+      }
+    ],
+    "name": "Angola",
+    "longitude": 13.233174,
+    "names": [
+      "Angola",
+      "Ngola"
+    ]
+  },
+  "ET": {
+    "latitude": 9.024325,
+    "patterns": [
+      {
+        "latitude": 9.024325,
+        "name": "Abeba",
+        "longitude": 38.749226
+      },
+      {
+        "latitude": 9.024325,
+        "name": "Addis Ababa",
+        "longitude": 38.749226,
+        "patterns": [
+          "ababa",
+          "addis"
+        ]
+      },
+      {
+        "latitude": 9.593056,
+        "name": "Dawa",
+        "longitude": 41.866111
+      },
+      {
+        "latitude": 8.55,
+        "name": "Nazret",
+        "longitude": 39.266667
+      },
+      {
+        "latitude": 11.6,
+        "name": "Bahir",
+        "longitude": 37.383333
+      },
+      {
+        "latitude": 12.6,
+        "name": "Gondar",
+        "longitude": 37.466667
+      },
+      {
+        "latitude": 7.05,
+        "name": "Awassa",
+        "longitude": 38.466667
+      },
+      {
+        "latitude": 7.666667,
+        "name": "Jimma",
+        "longitude": 36.833333
+      },
+      {
+        "latitude": 8.75,
+        "name": "Zeyit",
+        "longitude": 38.983333
+      },
+      {
+        "latitude": 11.083333,
+        "name": "Kembolcha",
+        "longitude": 39.733333
+      }
+    ],
+    "name": "Ethiopia",
+    "longitude": 38.749226,
+    "names": [
+      "Ethiopia",
+      "\u12a2\u1275\u12ee\u1335\u12eb"
+    ]
+  },
+  "ZW": {
+    "latitude": -17.8177778,
+    "patterns": [
+      {
+        "latitude": -17.8177778,
+        "name": "Harare",
+        "longitude": 31.0447222
+      },
+      {
+        "latitude": -20.15,
+        "name": "Bulawayo",
+        "longitude": 28.5833333
+      },
+      {
+        "latitude": -17.9938889,
+        "name": "Chitungwiza",
+        "longitude": 31.0480556
+      },
+      {
+        "latitude": -18.9666667,
+        "name": "Mutare",
+        "longitude": 32.6666667
+      },
+      {
+        "latitude": -19.45,
+        "name": "Gweru",
+        "longitude": 29.8166667
+      },
+      {
+        "latitude": -18.9166667,
+        "name": "Kwekwe",
+        "longitude": 29.8166667
+      },
+      {
+        "latitude": -18.35,
+        "name": "Kadoma",
+        "longitude": 29.9166667
+      },
+      {
+        "latitude": -20.0833333,
+        "name": "Masvingo",
+        "longitude": 30.8333333
+      },
+      {
+        "latitude": -18.1833333,
+        "name": "Marondera",
+        "longitude": 31.55
+      },
+      {
+        "latitude": -20.3333333,
+        "name": "Zvishavane",
+        "longitude": 30.0333333
+      }
+    ],
+    "name": "Zimbabwe",
+    "longitude": 31.0447222,
+    "names": [
+      "Zimbabwe"
+    ]
+  },
+  "MG": {
+    "latitude": -18.9166667,
+    "patterns": [
+      {
+        "latitude": -18.9166667,
+        "name": "Antananarivo",
+        "longitude": 47.5166667
+      },
+      {
+        "latitude": -18.1666667,
+        "name": "Toamasina",
+        "longitude": 49.3833333
+      },
+      {
+        "latitude": -19.85,
+        "name": "Antsirabe",
+        "longitude": 47.0333333
+      },
+      {
+        "latitude": -21.4333333,
+        "name": "Fianarantsoa",
+        "longitude": 47.0833333
+      },
+      {
+        "latitude": -15.7166667,
+        "name": "Mahajanga",
+        "longitude": 46.3166667
+      },
+      {
+        "latitude": -23.35,
+        "name": "Toliary",
+        "longitude": 43.6666667
+      },
+      {
+        "latitude": -19.5833333,
+        "name": "Antanifotsy",
+        "longitude": 47.5666667
+      },
+      {
+        "latitude": -25.1666667,
+        "name": "Ambovombe",
+        "longitude": 46.0833333
+      },
+      {
+        "latitude": -17.5833333,
+        "name": "Amparafaravola",
+        "longitude": 48.2166667
+      },
+      {
+        "latitude": -25.0333333,
+        "name": "Taolanaro",
+        "longitude": 47
+      }
+    ],
+    "name": "Madagascar",
+    "longitude": 47.5166667,
+    "names": [
+      "Madagascar",
+      "Madagasikara"
+    ]
+  },
+  "MA": {
+    "latitude": 33.592779,
+    "patterns": [
+      {
+        "latitude": 33.592779,
+        "name": "Casablanca",
+        "longitude": -7.619157
+      },
+      {
+        "latitude": 34.013784,
+        "name": "Rabat",
+        "longitude": -6.844268
+      },
+      {
+        "latitude": 34.037151,
+        "name": "Fez",
+        "longitude": -4.999797
+      },
+      {
+        "latitude": 31.631485,
+        "name": "Marrakesh",
+        "longitude": -8.008281
+      },
+      {
+        "latitude": 35.780576,
+        "name": "Tangier",
+        "longitude": -5.813646
+      },
+      {
+        "latitude": 35.780576,
+        "name": "Tangers",
+        "longitude": -5.813646
+      },
+      {
+        "latitude": 30.420664,
+        "name": "Agadir",
+        "longitude": -9.593161
+      },
+      {
+        "latitude": 34.261008,
+        "name": "Kenitra",
+        "longitude": -6.580203
+      },
+      {
+        "latitude": 35.571091,
+        "name": "T\u00e9touan",
+        "longitude": -5.372424
+      },
+      {
+        "latitude": 32.299392,
+        "name": "Asfi",
+        "longitude": -9.237181
+      },
+      {
+        "latitude": 35.174041,
+        "name": "Nador",
+        "longitude": -2.92866
+      }
+    ],
+    "name": "Morocco",
+    "longitude": -7.619157,
+    "names": [
+      "Morocco",
+      "Maroc",
+      "\u0627\u0644\u0645\u063a\u0631\u0628\u200e"
+    ]
+  },
+  "ML": {
+    "latitude": 12.65,
+    "patterns": [
+      {
+        "latitude": 12.65,
+        "name": "Bamako",
+        "longitude": -8
+      },
+      {
+        "latitude": 11.3166667,
+        "name": "Sikasso",
+        "longitude": -5.6666667
+      },
+      {
+        "latitude": 14.5,
+        "name": "Mopti",
+        "longitude": -4.2
+      },
+      {
+        "latitude": 12.3833333,
+        "name": "Koutiala",
+        "longitude": -5.4666667
+      },
+      {
+        "latitude": 14.45,
+        "name": "Kayes",
+        "longitude": -11.4333333
+      },
+      {
+        "latitude": 13.45,
+        "name": "S\u00e9gou",
+        "longitude": -6.2666667
+      },
+      {
+        "latitude": 13.45,
+        "name": "Segou",
+        "longitude": -6.2666667
+      },
+      {
+        "latitude": 15.2333333,
+        "name": "Nioro",
+        "longitude": -9.5833333
+      },
+      {
+        "latitude": 13.6833333,
+        "name": "Markala",
+        "longitude": -6.0833333
+      },
+      {
+        "latitude": 13.5833333,
+        "name": "Kolokani",
+        "longitude": -8.0333333
+      },
+      {
+        "latitude": 12.7466667,
+        "name": "Kati",
+        "longitude": -8.0713889
+      }
+    ],
+    "name": "Mali",
+    "longitude": -8,
+    "names": [
+      "Mali"
+    ]
+  },
+  "MU": {
+    "latitude": -20.1619444,
+    "patterns": [
+      {
+        "latitude": -20.3147222,
+        "name": "Curepipe",
+        "longitude": 57.5202778
+      },
+      {
+        "latitude": -20.0547222,
+        "name": "Triolet",
+        "longitude": 57.5452778
+      },
+      {
+        "latitude": -20.035,
+        "name": "Goodlands",
+        "longitude": 57.6430556
+      }
+    ],
+    "name": "Mauritius",
+    "longitude": 57.4988889,
+    "names": [
+      "Mauritius",
+      "Moris",
+      "Maurice"
+    ]
+  },
+  "MW": {
+    "latitude": -13.9833333,
+    "patterns": [
+      {
+        "latitude": -13.9833333,
+        "name": "Lilongwe",
+        "longitude": 33.7833333
+      },
+      {
+        "latitude": -15.7833333,
+        "name": "Blantyre",
+        "longitude": 35
+      },
+      {
+        "latitude": -15.3833333,
+        "name": "Zomba",
+        "longitude": 35.3333333
+      },
+      {
+        "latitude": -13.0333333,
+        "name": "Kasungu",
+        "longitude": 33.4833333
+      },
+      {
+        "latitude": -14.4666667,
+        "name": "Mangochi",
+        "longitude": 35.2666667
+      },
+      {
+        "latitude": -9.9333333,
+        "name": "Karonga",
+        "longitude": 33.9333333
+      },
+      {
+        "latitude": -13.7833333,
+        "name": "Salima",
+        "longitude": 34.4333333
+      },
+      {
+        "latitude": -12.9166667,
+        "name": "Nkhotakota",
+        "longitude": 34.3
+      },
+      {
+        "latitude": -15.0666667,
+        "name": "Liwonde",
+        "longitude": 35.2166667
+      },
+      {
+        "latitude": -16.9166667,
+        "name": "Nsanje",
+        "longitude": 35.2666667
+      }
+    ],
+    "name": "Malawi",
+    "longitude": 33.7833333,
+    "names": [
+      "Malawi"
+    ]
+  },
+  "MR": {
+    "latitude": 18.0863889,
+    "patterns": [
+      {
+        "latitude": 18.0863889,
+        "name": "Nouakchott",
+        "longitude": -15.9752778
+      },
+      {
+        "latitude": 20.9,
+        "name": "Nou\u00e2dhibou",
+        "longitude": -17.0666667
+      },
+      {
+        "latitude": 20.5166667,
+        "name": "At\u00e2r",
+        "longitude": -13.05
+      },
+      {
+        "latitude": 16.3333333,
+        "name": "Babab\u00e9",
+        "longitude": -13.95
+      },
+      {
+        "latitude": 15.5166667,
+        "name": "Maghama",
+        "longitude": -12.85
+      },
+      {
+        "latitude": 16.3666667,
+        "name": "Abari",
+        "longitude": -13.9833333
+      },
+      {
+        "latitude": 16.6166667,
+        "name": "Abaye",
+        "longitude": -14.25
+      },
+      {
+        "latitude": 16.7166667,
+        "name": "Adaba\u00ef",
+        "longitude": -14.9666667
+      }
+    ],
+    "name": "Mauritania",
+    "longitude": -15.9752778,
+    "names": [
+      "Mauritania",
+      "Mauritanie",
+      "\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627\u200e"
+    ]
+  },
+  "UG": {
+    "latitude": 0.3155556,
+    "patterns": [
+      {
+        "latitude": 0.3155556,
+        "name": "Kampala",
+        "longitude": 32.5655556
+      },
+      {
+        "latitude": 2.7666667,
+        "name": "Gulu",
+        "longitude": 32.3055556
+      },
+      {
+        "latitude": 2.235,
+        "name": "Lira",
+        "longitude": 32.9097222
+      },
+      {
+        "latitude": 0.4244444,
+        "name": "Jinja",
+        "longitude": 33.2041667
+      },
+      {
+        "latitude": -0.6583333,
+        "name": "Mbarara",
+        "longitude": 30.6758333
+      },
+      {
+        "latitude": 1.0644444,
+        "name": "Mbale",
+        "longitude": 34.1794444
+      },
+      {
+        "latitude": 0.3533333,
+        "name": "Mukono",
+        "longitude": 32.7552778
+      },
+      {
+        "latitude": 0.23,
+        "name": "Kasese",
+        "longitude": 29.9883333
+      },
+      {
+        "latitude": -0.3127778,
+        "name": "Masaka",
+        "longitude": 31.7130556
+      },
+      {
+        "latitude": 0.0644444,
+        "name": "Entebbe",
+        "longitude": 32.4469444
+      }
+    ],
+    "name": "Uganda",
+    "longitude": 32.5655556,
+    "names": [
+      "Uganda"
+    ]
+  },
+  "MZ": {
+    "latitude": -25.9652778,
+    "patterns": [
+      {
+        "latitude": -25.9652778,
+        "name": "Maputo",
+        "longitude": 32.5891667
+      },
+      {
+        "latitude": -25.9622222,
+        "name": "Matola",
+        "longitude": 32.4588889
+      },
+      {
+        "latitude": -19.8436111,
+        "name": "Beira",
+        "longitude": 34.8388889
+      },
+      {
+        "latitude": -15.1197222,
+        "name": "Nampula",
+        "longitude": 39.2647222
+      },
+      {
+        "latitude": -19.1163889,
+        "name": "Chimoio",
+        "longitude": 33.4833333
+      },
+      {
+        "latitude": -14.5427778,
+        "name": "Nacala",
+        "longitude": 40.6727778
+      },
+      {
+        "latitude": -17.8786111,
+        "name": "Quelimane",
+        "longitude": 36.8883333
+      },
+      {
+        "latitude": -16.1563889,
+        "name": "Tete",
+        "longitude": 33.5866667
+      },
+      {
+        "latitude": -25.0519444,
+        "name": "Xai-Xai",
+        "longitude": 33.6441667
+      },
+      {
+        "latitude": -23.8597222,
+        "name": "Maxixe",
+        "longitude": 35.3472222
+      }
+    ],
+    "name": "Mozambique",
+    "longitude": 32.5891667,
+    "names": [
+      "Mozambique",
+      "Mo\u00e7ambique"
+    ]
+  },
+  "ER": {
+    "latitude": 15.333333,
+    "patterns": [
+      {
+        "latitude": 15.3333333,
+        "name": "Asmara",
+        "longitude": 38.9333333,
+        "patterns": [
+          "Asmara",
+          "Asmera"
+        ]
+      },
+      {
+        "latitude": 14.8855556,
+        "name": "Ugri",
+        "longitude": 38.8163889
+      },
+      {
+        "latitude": 15.1138889,
+        "name": "Barentu",
+        "longitude": 37.5927778
+      },
+      {
+        "latitude": 15.4491667,
+        "name": "Ginda",
+        "longitude": 39.0886111
+      },
+      {
+        "latitude": 13.9297222,
+        "name": "Edd",
+        "longitude": 41.6925
+      },
+      {
+        "latitude": 15.11,
+        "name": "Teseney",
+        "longitude": 36.6575
+      },
+      {
+        "latitude": 14.1833333,
+        "name": "Abacheri",
+        "longitude": 41.5
+      },
+      {
+        "latitude": 17.3166667,
+        "name": "Ab Anrafa",
+        "longitude": 38.5
+      },
+      {
+        "latitude": 15.2569444,
+        "name": "Abarda",
+        "longitude": 38.7986111
+      },
+      {
+        "latitude": 15.4166667,
+        "name": "Abaredda",
+        "longitude": 37.6
+      }
+    ],
+    "name": "Eritrea",
+    "longitude": 38.933333,
+    "names": [
+      "Eritrea",
+      "\\u12a4\\u122d\\u1275\\u122b",
+      "\\u0625\\u0631\\u062a\\u0631\\u064a\\u0627"
+    ]
+  },
+  "LY": {
+    "latitude": 32.902222,
+    "patterns": [
+      {
+        "latitude": 32.8925,
+        "name": "Tripoli",
+        "longitude": 13.18
+      },
+      {
+        "latitude": 32.1166667,
+        "name": "Benghazi",
+        "longitude": 20.0666667
+      },
+      {
+        "latitude": 32.3783333,
+        "name": "Misratah",
+        "longitude": 15.0905556
+      },
+      {
+        "latitude": 32.4333333,
+        "name": "Tarhunah",
+        "longitude": 13.6333333
+      },
+      {
+        "latitude": 32.9344444,
+        "name": "Zuwarah",
+        "longitude": 12.0791667
+      },
+      {
+        "latitude": 30.7591667,
+        "name": "Ajdabiya",
+        "longitude": 20.2230556
+      },
+      {
+        "latitude": 31.2061111,
+        "name": "Surt",
+        "longitude": 16.5947222
+      },
+      {
+        "latitude": 27.0333333,
+        "name": "Sabha",
+        "longitude": 14.4333333
+      },
+      {
+        "latitude": 32.0836111,
+        "name": "Tubruq",
+        "longitude": 23.9763889
+      },
+      {
+        "latitude": 32.7919444,
+        "name": "Sabratah",
+        "longitude": 12.4847222
+      }
+    ],
+    "name": "Lybia",
+    "longitude": 13.185833,
+    "names": [
+      "Lybia",
+      "\\u0644\\u064a\\u0628\\u064a\\u0627"
+    ]
+  },
+  "CV": {
+    "latitude": 14.920833,
+    "patterns": [
+      {
+        "latitude": 14.920833,
+        "name": "Praia",
+        "longitude": -23.508333
+      }
+    ],
+    "name": "Cape Verde",
+    "longitude": -23.508333,
+    "names": [
+      "Verde"
+    ]
+  },
+  "SC": {
+    "latitude": -4.6167,
+    "patterns": [],
+    "name": "Seychelles",
+    "longitude": 55.45,
+    "names": [
+      "Seychelles"
+    ]
+  },
+  "ST": {
+    "latitude": 0.336111,
+    "patterns": [
+      {
+        "latitude": 0.336111,
+        "name": "S\\u00e3o Tom\\u00e9",
+        "longitude": 6.681389,
+        "patterns": [
+          "Tom\\u00e9"
+        ]
+      }
+    ],
+    "name": "S\\u00e3o Tom\\u00e9 and Pr\\u00edncipe",
+    "longitude": 6.681389,
+    "names": [
+      "Principe",
+      "Pr\\u00edncipe"
+    ]
+  },
+  "EH": {
+    "latitude": 27.153611,
+    "patterns": [
+      {
+        "latitude": 27.153611,
+        "name": "El-Aai\u00fan",
+        "longitude": 13.203333,
+        "patterns": [
+          "El-Aai\\u00fan",
+          "La\\u00e2youne",
+          "\\u0627\\u0644\\u0639\\u064a\\u0648\\u0646"
+        ]
+      }
+    ],
+    "name": "Western Sahara",
+    "longitude": 13.203333,
+    "names": [
+      "Sahara",
+      "\\u0627\\u0644\\u0635\\u062d\\u0631\\u0627\\u0621"
+    ]
+  }
+}
