@@ -112,9 +112,9 @@ def extend_user(user):
             nd.update({col: data[col]})
         return nd
 
-    def get_orgs(user):
+    def get_orgs(username):
         orgs = {}
-        r = requests.get('https://api.github.com/users/%s/orgs' % user.get('username'),
+        r = requests.get('https://api.github.com/users/%s/orgs' % username,
                          headers=headers)
 
         check_limits(r.headers)
@@ -133,8 +133,6 @@ def extend_user(user):
             for col in data_org.keys():
                 if 'url' in col and not col == 'avatar_url':
                     continue
-                if col in user.keys():
-                    continue
                 nd.update({prefix + col: data_org[col]})
             orgs.update(nd)
         return orgs
@@ -145,8 +143,11 @@ def extend_user(user):
         acitiviy = {}
     profile = get_profile(user)
 
+    orgs = get_orgs(user.get('username'))
+
     user.update(acitiviy)
     user.update(profile)
+    user.update(orgs)
 
     return user
 

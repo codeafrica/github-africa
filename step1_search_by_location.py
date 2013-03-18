@@ -33,9 +33,19 @@ def add_to(search_term, all_users, country_stub, city=None):
         complete = False
         page = 1
         users = []
+        order = 'asc'
         while not complete:
+            if page > 10:
+                # well, we can't query anymore.
+                if order == 'desc':
+                    complete = True
+                    continue
+                order = 'desc'
+                page = 1
             req = requests.get('https://api.github.com/legacy/user/search/location:%s' % location,
-                               headers=headers, params={'start_page': page})
+                               headers=headers, params={'start_page': page,
+                                                        'sort': 'joined',
+                                                        'order': order})
             page += 1
             try:
                 jsusers = json.loads(req.content).get('users')
