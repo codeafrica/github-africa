@@ -89,10 +89,10 @@ def extend_user(user):
             if long_end.year > total_end.year:
                 long_end = datetime(long_end.year - 1, long_end.month, long_end.year.day)
 
-        return {'contrib_total_num': int(total_str.split()[0]),
+        return {'contrib_total_num': int(total_str.split()[0].replace(',', '')),
                 'contrib_total_start': total_start.isoformat(),
                 'contrib_total_end': total_end.isoformat(),
-                'contrib_long_num': int(long_str.split()[0]),
+                'contrib_long_num': int(long_str.split()[0].replace(',', '')),
                 'contrib_long_start': long_start.isoformat() if not long_start is None else None,
                 'contrib_long_end': long_end.isoformat() if not long_end is None else None}
 
@@ -120,6 +120,8 @@ def extend_user(user):
         check_limits(r.headers)
 
         data = json.loads(r.content)
+
+        orgs.update({'orgs_num': len(data)})
         for i, org in enumerate(data):
             org_name = org.get('login')
             prefix = 'org%d_' % i
