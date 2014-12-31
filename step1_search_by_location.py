@@ -97,7 +97,7 @@ for country_code, country in countries.items():
 
 logger.info("Found %d records" % len(all_users))
 
-json.dump(all_users, open(output, 'w'))
+json.dump(all_users, open(output, 'w'), indent=4)
 
 logger.info("UNIQUE user accounts: %d" %
             len(list(set([u.get('username') for u in all_users]))))

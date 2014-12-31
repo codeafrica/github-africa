@@ -275,4 +275,4 @@ for user in valid_users:
     unique_users.append(user)
     existing.append(user['username'])
 
-json.dump(unique_users, open('step2.json', 'w'))
+json.dump(unique_users, open('step2.json', 'w'), indent=4)

@@ -73,6 +73,9 @@ def extend_user(user):
         r = requests.get('https://github.com/%s' % username,
                          headers=headers, auth=TOKEN_AUTH)
 
+        if r.status_code == 404:
+            return None
+
         parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("dom"))
         dom = parser.parse(StringIO.StringIO(r.content))
         divs = dom.getElementsByTagName('div')
@@ -189,6 +192,10 @@ def extend_user(user):
         raise
         acitiviy = {}
     from pprint import pprint as pp ; pp(acitiviy)
+
+    if acitiviy is None:
+        return None
+
     profile = get_profile(user)
 
     orgs = get_orgs(user.get('username'))
@@ -206,7 +213,10 @@ all_usernames = [u['username'] for u in all_users]
 for user in existing_users:
     if user['username'] in all_usernames:
         continue
-    all_users.append(extend_user(user))
-    json.dump(all_users, open('step3.json', 'w'))
+    user_update = extend_user(user)
+    if user_update is None:
+        continue
+    all_users.append(user_update)
+    json.dump(all_users, open('step3.json', 'w'), indent=4)
 
-json.dump(all_users, open('step3.json', 'w'))
+json.dump(all_users, open('step3.json', 'w'), indent=4)
