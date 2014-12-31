@@ -81,6 +81,14 @@ def extend_user(user):
                            if 'contrib-column' in
                            d.getAttribute('class')]
 
+        if not len(contrib_columns):
+            return {'contrib_total_num': 0,
+                    'contrib_total_start': None,
+                    'contrib_total_end': None,
+                    'contrib_long_num': 0,
+                    'contrib_long_start': None,
+                    'contrib_long_end': None}
+
         total_str = getElementsByClassName(
             contrib_columns[0], "span",
             "contrib-number")[0].firstChild.nodeValue
@@ -190,6 +198,9 @@ def extend_user(user):
     user.update(orgs)
 
     return user
+
+# extend_user({'username': 'tensystems'})
+# raise
 
 all_usernames = [u['username'] for u in all_users]
 for user in existing_users:
