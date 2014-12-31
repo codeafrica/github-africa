@@ -276,4 +276,3 @@ for user in valid_users:
     existing.append(user['username'])
 
 json.dump(unique_users, open('step2.json', 'w'))
-

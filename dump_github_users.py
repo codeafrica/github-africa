@@ -8,7 +8,7 @@
     Takes a great while as script must pause an hour after each 6000 users.
     With 3,900,000 users, it'd be 28days...
     When authenticating, it pauses after 500,000 users so 8h total!
-    The output file is copiable at anytime as it is close after each write.
+    The output file is copiable at anytime as it is closed after each write.
     It's content is valid JSON as long as you close the list (])
 '''
 
@@ -18,6 +18,7 @@ import logging
 import time
 
 import requests
+from requests.auth import HTTPBasicAuth
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG)
@@ -32,7 +33,9 @@ min_remaining_tostop = 30
 reqs = 0
 reqs_limit = None
 reqs_remaining = None
-headers = {'Authorization': 'token %s' % GITHUB_TOKEN} if GITHUB_TOKEN else {}
+# headers = {'Authorization': 'token %s' % GITHUB_TOKEN} if GITHUB_TOKEN else {}
+headers = {}
+TOKEN_AUTH = HTTPBasicAuth(GITHUB_TOKEN, "x-oauth-basic")
 
 
 def pause(duration):
@@ -57,7 +60,8 @@ while True:
                 % (last_id, reqs_limit, reqs_remaining))
     req = requests.get('https://api.github.com/users',
                        params=params,
-                       headers=headers)
+                       headers=headers,
+                       auth=TOKEN_AUTH)
     reqs += 1
 
     if not req.status_code == requests.codes.ok:

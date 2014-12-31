@@ -8,6 +8,7 @@ import logging
 import copy
 
 import requests
+from requests.auth import HTTPBasicAuth
 
 from africa_data import countries
 
@@ -23,9 +24,12 @@ min_remaining_tostop = 30
 reqs = 0
 reqs_limit = None
 reqs_remaining = None
-headers = {'Authorization': 'token %s' % GITHUB_TOKEN} if GITHUB_TOKEN else {}
+headers = {}
+TOKEN_AUTH = HTTPBasicAuth(GITHUB_TOKEN, "x-oauth-basic")
+
 
 all_users = []
+
 
 def add_to(search_term, all_users, country_stub, city=None):
 
@@ -42,10 +46,13 @@ def add_to(search_term, all_users, country_stub, city=None):
                     continue
                 order = 'desc'
                 page = 1
-            req = requests.get('https://api.github.com/legacy/user/search/location:%s' % location,
-                               headers=headers, params={'start_page': page,
-                                                        'sort': 'joined',
-                                                        'order': order})
+            req = requests.get(
+                'https://api.github.com/legacy/user/search/location:%s' %
+                location,
+                headers=headers, params={'start_page': page,
+                                         'sort': 'joined',
+                                         'order': order},
+                auth=TOKEN_AUTH)
             page += 1
             try:
                 jsusers = json.loads(req.content).get('users')
@@ -92,5 +99,5 @@ logger.info("Found %d records" % len(all_users))
 
 json.dump(all_users, open(output, 'w'))
 
-logger.info("UNIQUE user accounts: %d" % len(list(set([u.get('username') for u in all_users]))))
-
+logger.info("UNIQUE user accounts: %d" %
+            len(list(set([u.get('username') for u in all_users]))))

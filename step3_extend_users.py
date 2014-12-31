@@ -11,6 +11,7 @@ import StringIO
 import logging
 
 import requests
+from requests.auth import HTTPBasicAuth
 import html5lib
 from html5lib import treebuilders
 
@@ -26,7 +27,8 @@ min_remaining_tostop = 30
 reqs = 0
 # reqs_limit = None
 # reqs_remaining = None
-headers = {'Authorization': 'token %s' % GITHUB_TOKEN} if GITHUB_TOKEN else {}
+headers = {}
+TOKEN_AUTH = HTTPBasicAuth(GITHUB_TOKEN, "x-oauth-basic")
 
 
 def check_limits(headers):
@@ -61,7 +63,8 @@ def extend_user(user):
     print(user.get('username'))
 
     def get_activity_from_html(username):
-        r = requests.get('https://github.com/%s' % username, headers=headers)
+        r = requests.get('https://github.com/%s' % username,
+                         headers=headers, auth=TOKEN_AUTH)
 
         parser = html5lib.HTMLParser(tree=treebuilders.getTreeBuilder("dom"))
         dom = parser.parse(StringIO.StringIO(r.content))
@@ -97,8 +100,9 @@ def extend_user(user):
                 'contrib_long_end': long_end.isoformat() if not long_end is None else None}
 
     def get_profile(user):
-        r = requests.get('https://api.github.com/users/%s' % user.get('username'),
-                         headers=headers)
+        r = requests.get(
+            'https://api.github.com/users/%s' % user.get('username'),
+            headers=headers, auth=TOKEN_AUTH)
 
         check_limits(r.headers)
 
@@ -115,7 +119,7 @@ def extend_user(user):
     def get_orgs(username):
         orgs = {}
         r = requests.get('https://api.github.com/users/%s/orgs' % username,
-                         headers=headers)
+                         headers=headers, auth=TOKEN_AUTH)
 
         check_limits(r.headers)
 
@@ -126,7 +130,7 @@ def extend_user(user):
             org_name = org.get('login')
             prefix = 'org%d_' % i
             rorg = requests.get('https://api.github.com/orgs/%s' % org_name,
-                                headers=headers)
+                                headers=headers, auth=TOKEN_AUTH)
 
             check_limits(rorg.headers)
 
@@ -141,7 +145,8 @@ def extend_user(user):
 
     try:
         acitiviy = get_activity_from_html(user.get('username'))
-    except:
+    except Exception as e:
+        logger.error(e.__str__())
         acitiviy = {}
     profile = get_profile(user)
 
