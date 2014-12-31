@@ -1,0 +1,8 @@
+html5lib==0.999
+ipdb==0.8
+ipython==2.3.1
+mongo==0.2.0
+path.py==7.0
+python-dateutil==2.3
+requests==2.5.0
+unicodecsv==0.9.4
