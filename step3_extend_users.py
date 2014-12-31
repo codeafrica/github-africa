@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 # vim: ai ts=4 sts=4 et sw=4 nu
 
+from __future__ import (unicode_literals, absolute_import,
+                        division, print_function)
 import os
 import json
 import time
@@ -58,6 +60,11 @@ except:
     all_users = []
 
 
+def getElementsByClassName(root, tag, className):
+    return [e for e in root.getElementsByTagName(tag)
+            if className in e.getAttribute('class')]
+
+
 def extend_user(user):
 
     print(user.get('username'))
@@ -70,34 +77,58 @@ def extend_user(user):
         dom = parser.parse(StringIO.StringIO(r.content))
         divs = dom.getElementsByTagName('div')
 
-        total_dom = [d for d in divs if d.getAttribute('class') == 'col contrib-day'][0]
+        contrib_columns = [d for d in divs
+                           if 'contrib-column' in
+                           d.getAttribute('class')]
 
-        total_str = total_dom.childNodes[1].firstChild.nodeValue
-        total_dates = total_dom.childNodes[3].nodeValue.strip()
-        total_start = du_parser.parse(total_dates.split('-')[0])
-        total_end = du_parser.parse(total_dates.split('-')[1])
+        total_str = getElementsByClassName(
+            contrib_columns[0], "span",
+            "contrib-number")[0].firstChild.nodeValue
+        # logger.debug("total_str: {}".format(total_str))
+        total_dates_dom = getElementsByClassName(
+            contrib_columns[0], "span", "text-muted")[1]
+        total_dates = "".join([n.nodeValue
+                               for n in total_dates_dom.childNodes])
+        # logger.debug("total_dates: {}".format(total_dates))
 
-        long_dom = [d for d in divs if d.getAttribute('class') == 'col contrib-streak'][0]
+        total_start = du_parser.parse(total_dates.split(u'–')[0])
+        total_end = du_parser.parse(total_dates.split(u'–')[1])
+        # logger.debug("total_start: {}".format(total_start))
+        # logger.debug("total_end: {}".format(total_end))
 
-        long_str = long_dom.childNodes[1].firstChild.nodeValue
-        long_dates = long_dom.childNodes[3].nodeValue.strip()
-        if long_dates == "Rock - Hard Place":
+        long_str = getElementsByClassName(
+            contrib_columns[1], "span",
+            "contrib-number")[0].firstChild.nodeValue
+        # logger.debug("long_str: {}".format(long_str))
+        long_dates_dom = getElementsByClassName(
+            contrib_columns[1], "span", "text-muted")[1]
+        long_dates = "".join([n.nodeValue
+                              for n in long_dates_dom.childNodes])
+        # logger.debug("total_dates: {}".format(total_dates))
+        # logger.debug("long_dates: {}".format(long_dates))
+
+        if long_dates == "No recent contributions":
             long_start = None
             long_end = None
         else:
-            long_start = du_parser.parse(long_dates.split('-')[0].strip())
+            long_start = du_parser.parse(long_dates.split(u'–')[0].strip())
             if long_start.year > total_end.year:
-                long_start = datetime(long_start.year - 1, long_start.month, long_start.year.day)
-            long_end = du_parser.parse(long_dates.split('-')[1].strip())
+                long_start = datetime(long_start.year - 1,
+                                      long_start.month, long_start.year.day)
+            long_end = du_parser.parse(long_dates.split(u'–')[1].strip())
             if long_end.year > total_end.year:
-                long_end = datetime(long_end.year - 1, long_end.month, long_end.year.day)
+                long_end = datetime(long_end.year - 1, long_end.month,
+                                    long_end.year.day)
 
-        return {'contrib_total_num': int(total_str.split()[0].replace(',', '')),
-                'contrib_total_start': total_start.isoformat(),
-                'contrib_total_end': total_end.isoformat(),
-                'contrib_long_num': int(long_str.split()[0].replace(',', '')),
-                'contrib_long_start': long_start.isoformat() if not long_start is None else None,
-                'contrib_long_end': long_end.isoformat() if not long_end is None else None}
+        return {
+            'contrib_total_num': int(total_str.split()[0].replace(',', '')),
+            'contrib_total_start': total_start.isoformat(),
+            'contrib_total_end': total_end.isoformat(),
+            'contrib_long_num': int(long_str.split()[0].replace(',', '')),
+            'contrib_long_start':
+                long_start.isoformat() if long_start is not None else None,
+            'contrib_long_end':
+                long_end.isoformat() if long_end is not None else None}
 
     def get_profile(user):
         r = requests.get(
@@ -146,8 +177,10 @@ def extend_user(user):
     try:
         acitiviy = get_activity_from_html(user.get('username'))
     except Exception as e:
-        logger.error(e.__str__())
+        logger.exception(e)
+        raise
         acitiviy = {}
+    from pprint import pprint as pp ; pp(acitiviy)
     profile = get_profile(user)
 
     orgs = get_orgs(user.get('username'))
@@ -166,4 +199,3 @@ for user in existing_users:
     json.dump(all_users, open('step3.json', 'w'))
 
 json.dump(all_users, open('step3.json', 'w'))
-
